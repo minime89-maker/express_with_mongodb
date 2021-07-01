@@ -8,16 +8,8 @@ Content-Type: application/json
     "email": "john@doe.com"
 }
 
-
 ###
 GET http://localhost:3000/test/
 
 ###
 PUT http://localhost:3000/test/
-Content-Type: application/json
-
-{
-    "name": "John",
-    "first_name": "Doe",
-    "email": "jo@gmail.com"
-}
